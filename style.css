@@ -31,13 +31,14 @@ body, html {
   height: 100%;
   padding: 40px;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .converter-box {
   background-color: white;
   padding: 20px;
   border-radius: 12px;
-  width: 40%;
+  width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,11 +46,15 @@ body, html {
   width: 500px;
   height: 170px;
   padding-top: 0px;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 
 .to-box {
 width: 500px;
   padding-top: 0px;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 .from{
     align-items: center;
@@ -112,7 +117,3 @@ select:hover{
 #inputamount:hover{
     border: 2px solid black;
 }
-
-
-
-
